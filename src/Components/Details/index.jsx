@@ -49,7 +49,7 @@ return (
       <p>Release Date: {movie.release_date || 'N/A'}</p>
       <p>Rating: {movie.vote_average || 'N/A'}</p>
 
-      {/* Check if movie.genres is available and map only if it exists */}
+    
       <p>
         Genres:{' '}
         {movie.genres && movie.genres.length > 0
