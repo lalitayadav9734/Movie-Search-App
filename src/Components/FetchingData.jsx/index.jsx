@@ -63,7 +63,7 @@ const MovieSearch = () => {
             marginBottom: '20px',
            
            
-        }}onClick={handleReset}>Remove</button>
+        }}onClick={handleReset}>Reset</button>
       {loading && <p>Loading...</p>} 
       {error && <p style={{ color: 'red' }}>{error}</p>} 
 
